@@ -1,7 +1,7 @@
 {
-  "version": "2.26.4",
+  "version": "2.26.5",
   "download_url": "https://github.com/78skwara-coder/restauracja-zamowienia/releases/latest/download/restauracja-zamowienia.zip",
   "homepage": "https://github.com/78skwara-coder/restauracja-zamowienia",
   "tested": "6.8",
-  "changelog": "<h4>2.26.4</h4><ul><li>Cutoff „N dni przed dostawą” liczy tylko dni dostaw grupy (weekendy i święta pomijane).</li><li>Harmonogram: przycisk „Dodaj na ten dzień” pod daniami na całą szerokość, duże zdjęcie po kliknięciu miniatury.</li><li>Wygląd listy: szerokość przycisku „Dodaj do koszyka” (wypełnia / dopasowana do napisu), wielkość czcionki, czytelne nazwy odstępów.</li></ul><h4>2.26.3</h4><ul><li>Zestawy menu: najnowszy termin na górze, przyklejony pasek; wydruk Kuchni i Kuriera; pasek z krzyżykiem w harmonogramie.</li></ul>"
+  "changelog": "<h4>2.26.5</h4><ul><li>Wygląd listy: położenie przycisku „Dodaj do koszyka” (obok licznika / do prawej krawędzi), szerokość pola z liczbą.</li><li>Licznik z okrągłymi − / + nie ściska już liczby.</li></ul><h4>2.26.4</h4><ul><li>Cutoff liczony w dniach dostaw, harmonogram: przycisk na całą szerokość i duże zdjęcia, szerokość i czcionka przycisku „Dodaj do koszyka”.</li></ul>"
 }
