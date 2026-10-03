@@ -1,0 +1,7 @@
+{
+  "version": "2.26.1",
+  "download_url": "https://github.com/78skwara-coder/restauracja-zamowienia/releases/latest/download/restauracja-zamowienia.zip",
+  "homepage": "https://github.com/78skwara-coder/restauracja-zamowienia",
+  "tested": "6.8",
+  "changelog": "<h4>2.26.1</h4><ul><li>Harmonogram zestawu w okienku: historia, dzień i data dd.mm.rr, miniatury dań, przycisk „Dodaj na ten dzień”.</li><li>Admin zestawu: najnowszy termin na górze.</li><li>Minimum zamówienia liczone przed rabatem.</li><li>Okna w dniach tygodnia: węższe pola, skrócona kolumna „Wychodzi”.</li><li>Aktualizacje z GitHuba.</li></ul>"
+}
