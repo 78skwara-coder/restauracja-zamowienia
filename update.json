@@ -1,7 +1,7 @@
 {
-  "version": "2.26.5",
+  "version": "2.26.6",
   "download_url": "https://github.com/78skwara-coder/restauracja-zamowienia/releases/latest/download/restauracja-zamowienia.zip",
   "homepage": "https://github.com/78skwara-coder/restauracja-zamowienia",
   "tested": "6.8",
-  "changelog": "<h4>2.26.5</h4><ul><li>Wygląd listy: położenie przycisku „Dodaj do koszyka” (obok licznika / do prawej krawędzi), szerokość pola z liczbą.</li><li>Licznik z okrągłymi − / + nie ściska już liczby.</li></ul><h4>2.26.4</h4><ul><li>Cutoff liczony w dniach dostaw, harmonogram: przycisk na całą szerokość i duże zdjęcia, szerokość i czcionka przycisku „Dodaj do koszyka”.</li></ul>"
+  "changelog": "<h4>2.26.6</h4><ul><li>Cena na liście: waluta obok/pod/nad ceną, mniejsze grosze.</li><li>Kafle kategorii: zdjęcie w tle (rozmyte, przyciemnione), ustawienia w Wygląd listy osobno dla telefonu i komputera.</li><li>Strony kategorii i „Podobne produkty”: nasz przycisk, zaokrąglone zdjęcia, wyśrodkowanie.</li><li>Strona produktu: licznik − / + i przycisk jak na liście, zdjęcie w kwadracie (aż do koła), jeden tytuł.</li><li>Okienka: kolor tła i kolor tekstu.</li></ul><h4>2.26.5</h4><ul><li>Położenie przycisku „Dodaj do koszyka”, szerokość licznika.</li></ul>"
 }
