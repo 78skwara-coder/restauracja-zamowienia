@@ -1,7 +1,7 @@
 {
-  "version": "2.26.7",
+  "version": "2.26.8",
   "download_url": "https://github.com/78skwara-coder/restauracja-zamowienia/releases/latest/download/restauracja-zamowienia.zip",
   "homepage": "https://github.com/78skwara-coder/restauracja-zamowienia",
   "tested": "6.8",
-  "changelog": "<h4>2.26.7</h4><ul><li>Strona produktu: wszystko do lewej, ilość i „Dodaj do koszyka” na dole kolumny, „Harmonogram” przy zestawach.</li><li>Strony kategorii: ukryta liczba wyników i sortowanie (do włączenia w Wygląd listy).</li></ul><h4>2.26.6</h4><ul><li>Cena (waluta, grosze), kafle kategorii ze zdjęciem w tle, wygląd stron sklepu i produktu, kolory okienek.</li></ul>"
+  "changelog": "<h4>2.26.8</h4><ul><li>Strona produktu: ilość i „Dodaj do koszyka” zawsze na dole kolumny (równo z dołem zdjęcia), nazwa i cena wyrównane do prawej (do zmiany w Wygląd listy).</li></ul><h4>2.26.7</h4><ul><li>Strona produktu: układ do lewej, „Harmonogram” przy zestawach; strony kategorii bez liczby wyników i sortowania.</li></ul>"
 }
