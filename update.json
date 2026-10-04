@@ -1,7 +1,7 @@
 {
-  "version": "2.26.8",
+  "version": "2.26.9",
   "download_url": "https://github.com/78skwara-coder/restauracja-zamowienia/releases/latest/download/restauracja-zamowienia.zip",
   "homepage": "https://github.com/78skwara-coder/restauracja-zamowienia",
   "tested": "6.8",
-  "changelog": "<h4>2.26.8</h4><ul><li>Strona produktu: ilość i „Dodaj do koszyka” zawsze na dole kolumny (równo z dołem zdjęcia), nazwa i cena wyrównane do prawej (do zmiany w Wygląd listy).</li></ul><h4>2.26.7</h4><ul><li>Strona produktu: układ do lewej, „Harmonogram” przy zestawach; strony kategorii bez liczby wyników i sortowania.</li></ul>"
+  "changelog": "<h4>2.26.9</h4><ul><li>Strona produktu na telefonie: wyśrodkowany, większy licznik i szeroki przycisk pod nim; rozmiary licznika i przycisku, odstęp nazwa–cena w Wygląd listy.</li><li>Zakładka opisu: nazwa kategorii, opis kategorii, nazwa produktu zamiast „O produkcie”; delikatna kreska nad zakładkami.</li><li>„Zamów razem” zamiast „Podobne produkty”, równe kafle z przyciskami w jednej linii.</li><li>Przyciski z bloku „Przyciski” w stylu listy.</li></ul>\n"
 }
