@@ -1,7 +1,7 @@
 {
-  "version": "2.26.9",
+  "version": "2.26.10",
   "download_url": "https://github.com/78skwara-coder/restauracja-zamowienia/releases/latest/download/restauracja-zamowienia.zip",
   "homepage": "https://github.com/78skwara-coder/restauracja-zamowienia",
   "tested": "6.8",
-  "changelog": "<h4>2.26.9</h4><ul><li>Strona produktu na telefonie: wyśrodkowany, większy licznik i szeroki przycisk pod nim; rozmiary licznika i przycisku, odstęp nazwa–cena w Wygląd listy.</li><li>Zakładka opisu: nazwa kategorii, opis kategorii, nazwa produktu zamiast „O produkcie”; delikatna kreska nad zakładkami.</li><li>„Zamów razem” zamiast „Podobne produkty”, równe kafle z przyciskami w jednej linii.</li><li>Przyciski z bloku „Przyciski” w stylu listy.</li></ul>\n"
+  "changelog": "<h4>2.26.10</h4><ul><li>Cena na liście składana od zera – ustawienia waluty (obok/pod/nad) i groszy działają niezależnie od motywu.</li><li>Kafle kategorii: tło pod napisem (poświata, plakietka, pas), rozmycie tylko pod napisem, napis na środku albo na dole – zdjęcie może być w pełni ostre.</li></ul>\n"
 }
