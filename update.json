@@ -1,7 +1,7 @@
 {
-  "version": "2.26.13",
+  "version": "2.26.14",
   "download_url": "https://github.com/78skwara-coder/restauracja-zamowienia/releases/latest/download/restauracja-zamowienia.zip",
   "homepage": "https://github.com/78skwara-coder/restauracja-zamowienia",
   "tested": "6.8",
-  "changelog": "<h4>2.26.13 – wydajność</h4><ul><li>Mniej zapytań do bazy przy każdej stronie (ustawienia ładowane razem z WordPressem, kategorie i zdjęcia listy jednym zapytaniem, wspólny bufor terminów dostaw zamiast osobnego na każdy produkt).</li><li>Skrypty i style z „Wygląd listy” jako pliki zapamiętywane przez przeglądarkę (~36 KB mniej w każdej stronie).</li><li>Wcześniejsze łączenie z czcionkami Google.</li><li>Koszyk na telefonie: czytelny układ pozycji z modyfikacjami, licznik i kosz obok siebie.</li><li>Kolejność kafli kategorii z karty kategorii; odstęp pod nazwą produktu.</li></ul>\n"
+  "changelog": "<h4>2.26.14</h4><ul><li>Koszyk i kasa na telefonie: treść na pełną szerokość, nic nie jest ucinane z prawej.</li><li>Pusty koszyk: opcja ikonki/obrazka na całą szerokość.</li></ul>\n"
 }
