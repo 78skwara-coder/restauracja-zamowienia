@@ -1,0 +1,76 @@
+# Automatyczne wydanie wtyczki „Restauracja – Zamówienia i Dostawy”.
+# Wystarczy wgrać do GŁÓWNEGO katalogu repo plik restauracja-zamowienia.zip
+# (Add file → Upload files → Commit changes). Ta akcja sama:
+#  1) odczyta numer wersji z nagłówka wtyczki w zipie,
+#  2) utworzy Release vX.Y.Z z tym zipem (opis = zmiany.html z zipa),
+#  3) zaktualizuje update.json – WordPress zobaczy aktualizację.
+name: Wydanie wtyczki
+
+on:
+  push:
+    branches: [main]
+    paths: ['restauracja-zamowienia.zip']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Odczytaj wersję z zipa
+        id: v
+        run: |
+          set -e
+          rm -rf /tmp/w && mkdir /tmp/w
+          unzip -q restauracja-zamowienia.zip -d /tmp/w
+          VER=$(grep -m1 -E '^[[:space:]]*\*[[:space:]]*Version:' /tmp/w/restauracja-zamowienia/restauracja-zamowienia.php | sed -E 's/.*Version:[[:space:]]*//' | tr -d '\r ')
+          if [ -z "$VER" ]; then echo "Brak numeru wersji w zipie"; exit 1; fi
+          echo "Wersja: $VER"
+          echo "version=$VER" >> "$GITHUB_OUTPUT"
+          if [ -f /tmp/w/restauracja-zamowienia/zmiany.html ]; then
+            cp /tmp/w/restauracja-zamowienia/zmiany.html /tmp/zmiany.html
+          else
+            echo "<h4>$VER</h4>" > /tmp/zmiany.html
+          fi
+
+      - name: Utwórz Release z zipem
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VER: ${{ steps.v.outputs.version }}
+        run: |
+          set -e
+          if gh release view "v$VER" >/dev/null 2>&1; then
+            echo "Release v$VER już jest – podmieniam zip"
+            gh release upload "v$VER" restauracja-zamowienia.zip --clobber
+          else
+            gh release create "v$VER" restauracja-zamowienia.zip --title "$VER" --notes-file /tmp/zmiany.html --latest
+          fi
+
+      - name: Zaktualizuj update.json
+        env:
+          VER: ${{ steps.v.outputs.version }}
+        run: |
+          set -e
+          python3 - <<'PY'
+          import json, os
+          ver = os.environ['VER']
+          ch = open('/tmp/zmiany.html', encoding='utf-8').read()
+          data = {
+              "version": ver,
+              "download_url": "https://github.com/78skwara-coder/restauracja-zamowienia/releases/latest/download/restauracja-zamowienia.zip",
+              "homepage": "https://github.com/78skwara-coder/restauracja-zamowienia",
+              "tested": "6.8",
+              "changelog": ch,
+          }
+          with open('update.json', 'w', encoding='utf-8') as f:
+              json.dump(data, f, ensure_ascii=False, indent=2)
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add update.json
+          git diff --cached --quiet || git commit -m "update.json → $VER"
+          git push
