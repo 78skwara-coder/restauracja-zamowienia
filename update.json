@@ -1,7 +1,7 @@
 {
-  "version": "2.26.11",
+  "version": "2.26.12",
   "download_url": "https://github.com/78skwara-coder/restauracja-zamowienia/releases/latest/download/restauracja-zamowienia.zip",
   "homepage": "https://github.com/78skwara-coder/restauracja-zamowienia",
   "tested": "6.8",
-  "changelog": "<h4>2.26.11</h4><ul><li>Koszyk: konfigurowalny napis i ikonka pustego koszyka (buźka / własny obrazek / brak), napis przycisku powrotu, przycisk na środku.</li><li>Przyciski w koszyku i kasie (Wróć do listy, Przejdź do płatności, Zapisz zmiany, Kupuję i płacę) w stylu przycisków listy.</li><li>Telefon w kroku „Kontakt” kasy (Fluid Checkout).</li></ul>\n"
+  "changelog": "<h4>2.26.12</h4><ul><li>Kafle kategorii w rozwijanym polu „Kategorie menu” (na telefonie domyślnie schowane), odstęp pod blokiem kafli.</li><li>Cena: odstęp waluty od ceny i wyrównanie ceny z walutą.</li><li>Koszyk na telefonie: wartość pozycji nie wychodzi poza ekran.</li><li>Przyciski w kasie nie wychodzą poza ramkę kroku.</li></ul>\n"
 }
