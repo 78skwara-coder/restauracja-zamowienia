@@ -1,7 +1,7 @@
 {
-  "version": "2.26.14",
+  "version": "2.26.15",
   "download_url": "https://github.com/78skwara-coder/restauracja-zamowienia/releases/latest/download/restauracja-zamowienia.zip",
   "homepage": "https://github.com/78skwara-coder/restauracja-zamowienia",
   "tested": "6.8",
-  "changelog": "<h4>2.26.14</h4><ul><li>Koszyk i kasa na telefonie: treść na pełną szerokość, nic nie jest ucinane z prawej.</li><li>Pusty koszyk: opcja ikonki/obrazka na całą szerokość.</li></ul>\n"
+  "changelog": "<h4>2.26.15</h4><ul><li>Okienko modyfikacji: pasek „Dopłata / Razem” w kolorach okienka (czytelny także na ciemnym tle).</li></ul>\n"
 }
