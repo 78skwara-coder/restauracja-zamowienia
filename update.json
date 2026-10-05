@@ -1,7 +1,7 @@
 {
-  "version": "2.26.17",
+  "version": "2.26.18",
   "download_url": "https://github.com/78skwara-coder/restauracja-zamowienia/releases/latest/download/restauracja-zamowienia.zip",
   "homepage": "https://github.com/78skwara-coder/restauracja-zamowienia",
   "tested": "6.8",
-  "changelog": "<h4>2.26.17</h4><ul><li>Poprawka: pojedynczy wybór z rolą „Odejmuje” (np. „Bez dodatków” −7 zł) nie odejmował w koszyku, gdy któraś opcja wcześniej na liście była ukryta dla danego dania – liczyła się sąsiednia opcja.</li><li>Poprawka: przyciski „Dodaj do koszyka” na stronach sklepu, kategorii i w „Zamów razem” gubiły wybrane modyfikacje.</li><li>„Gdzie klient wybiera modyfikacje” ustawia się teraz dla całej grupy (ramka z nagłówkiem), nie dla każdej modyfikacji osobno.</li><li>Lista dodatków w edytorze modyfikacji pokazuje cenę przy dodaniu i przy odejmowaniu, gdy są różne.</li><li>Etykiety pól w zakładce „Możliwe modyfikacje” nie są już ucięte.</li></ul>\n"
+  "changelog": "<h4>2.26.18</h4><ul><li>Przegląd zamówienia: „Wybór w zestawie” (np. Frytki) dopisywany do składu dania zamiast osobnej linii; w zestawie – do składu właściwego dania. Dopłaty, „Bez” i obowiązkowe zostają osobno.</li></ul>\n"
 }
