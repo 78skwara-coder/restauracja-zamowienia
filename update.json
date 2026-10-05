@@ -1,7 +1,7 @@
 {
-  "version": "2.26.15",
+  "version": "2.26.16",
   "download_url": "https://github.com/78skwara-coder/restauracja-zamowienia/releases/latest/download/restauracja-zamowienia.zip",
   "homepage": "https://github.com/78skwara-coder/restauracja-zamowienia",
   "tested": "6.8",
-  "changelog": "<h4>2.26.15</h4><ul><li>Okienko modyfikacji: pasek „Dopłata / Razem” w kolorach okienka (czytelny także na ciemnym tle).</li></ul>\n"
+  "changelog": "<h4>2.26.16</h4><ul><li>Przegląd zamówienia: po kliknięciu „Przejdź do koszyka” klient widzi listę pozycji (ilość × nazwa, zdjęcie, skład, wybrane modyfikacje, dania zestawu) z podsumowaniem; przycisk „Dodatki płatne” przy daniach i zestawach, ✕ w prawym górnym rogu, „Potwierdź i przejdź do koszyka”.</li><li>Grupa modyfikacji ma pole „Gdzie klient to wybiera”: przed dodaniem do koszyka albo w przeglądzie zamówienia (pojedynczy wybór i obowiązkowe zawsze przed dodaniem).</li><li>Okno dodatków: „Zawiera już: …” ze składu dania i dopisek „to dodatkowa porcja” przy dodatku, którego składnik danie już ma.</li><li>Opakowanie dodatku (z pojemnością) – doliczane tylko przy dodatku płatnym (dopłata na plus).</li></ul>\n"
 }
