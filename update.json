@@ -1,7 +1,7 @@
 {
-  "version": "2.26.18",
+  "version": "2.26.19",
   "download_url": "https://github.com/78skwara-coder/restauracja-zamowienia/releases/latest/download/restauracja-zamowienia.zip",
   "homepage": "https://github.com/78skwara-coder/restauracja-zamowienia",
   "tested": "6.8",
-  "changelog": "<h4>2.26.18</h4><ul><li>Przegląd zamówienia: „Wybór w zestawie” (np. Frytki) dopisywany do składu dania zamiast osobnej linii; w zestawie – do składu właściwego dania. Dopłaty, „Bez” i obowiązkowe zostają osobno.</li></ul>\n"
+  "changelog": "<h4>2.26.19</h4><ul><li>Przegląd zamówienia: każda opcja z pojedynczego wyboru trafia do składu dania, także ze zmianą ceny – z kwotą w nawiasie, np. „Bez dodatków (-7,00 zł)”.</li></ul>\n"
 }
