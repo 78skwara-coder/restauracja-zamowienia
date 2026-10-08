@@ -1,7 +1,7 @@
 {
-  "version": "2.26.21",
+  "version": "2.26.22",
   "download_url": "https://github.com/78skwara-coder/restauracja-zamowienia/releases/latest/download/restauracja-zamowienia.zip",
   "homepage": "https://github.com/78skwara-coder/restauracja-zamowienia",
   "tested": "6.8",
-  "changelog": "<h4>2.26.21</h4><ul><li>Strony kategorii i sklepu: zestaw pokazuje zdjęcie dania podpiętego na dziś, tak jak na liście.</li><li>„Równe kafle”: ceny i przyciski w rzędzie w jednej linii, cena się nie łamie.</li></ul>\n"
+  "changelog": "<h4>2.26.22</h4><ul><li>Zestaw z dwoma daniami ma zdjęcie dzielone: po skosie (od prawego górnego do lewego dolnego rogu) albo pionowo pół na pół – na liście, w sklepie i kategoriach, na stronie produktu, w mini-koszyku, koszyku i przeglądzie zamówienia.</li><li>Nowe ustawienia w „Wygląd listy” → Zdjęcie produktu: rodzaj podziału, grubość i kolor kreski.</li><li>Checkbox „Zdjęcie” przy daniu w zestawie: jedno zaznaczone danie = tylko jego zdjęcie, bez podziału.</li></ul>\n"
 }
