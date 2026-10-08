@@ -1,7 +1,7 @@
 {
-  "version": "2.26.22",
+  "version": "2.26.23",
   "download_url": "https://github.com/78skwara-coder/restauracja-zamowienia/releases/latest/download/restauracja-zamowienia.zip",
   "homepage": "https://github.com/78skwara-coder/restauracja-zamowienia",
   "tested": "6.8",
-  "changelog": "<h4>2.26.22</h4><ul><li>Zestaw z dwoma daniami ma zdjęcie dzielone: po skosie (od prawego górnego do lewego dolnego rogu) albo pionowo pół na pół – na liście, w sklepie i kategoriach, na stronie produktu, w mini-koszyku, koszyku i przeglądzie zamówienia.</li><li>Nowe ustawienia w „Wygląd listy” → Zdjęcie produktu: rodzaj podziału, grubość i kolor kreski.</li><li>Checkbox „Zdjęcie” przy daniu w zestawie: jedno zaznaczone danie = tylko jego zdjęcie, bez podziału.</li></ul>\n"
+  "changelog": "<h4>2.26.23</h4><ul><li>Kontrola zestawów w koszyku przy wejściu do koszyka, kasy i okienka „Sprawdź zamówienie”: zestaw jest usuwany z komunikatem, gdy termin dostawy minął (albo zamknięto na niego przyjmowanie zamówień), gdy na ten dzień zestaw nie ma dania albo gdy jego skład zmienił się po dodaniu do koszyka. Zwykłe produkty zostają.</li><li>Zestaw bez prawdziwego dania na dany dzień (np. sama „Zupa dnia” bez zupy) jest w tym dniu niedostępny – na liście, w okienku terminu i przy dodawaniu.</li></ul>\n<h4>2.26.22</h4><ul><li>Zdjęcie dzielone zestawu z dwoma daniami (skos albo pion, opcjonalna kreska) – ustawienia w „Wygląd listy” → Zdjęcie produktu.</li></ul>\n"
 }
